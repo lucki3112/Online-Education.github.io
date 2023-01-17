@@ -1,0 +1,123 @@
+.container-fluid{
+    background-color: purple;
+    height: 63px;
+}
+li{
+    padding-left: 85px;
+    padding-top: 5px;
+}
+#search_form{
+    padding-top: 5px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 23px;
+    padding-left: 23px;
+    height: 123px;
+}
+a{
+    color: white;
+}
+.content{
+    padding-bottom: 13px;
+}
+.nav-link{
+    color: white;
+}
+span{
+    cursor: pointer;
+}
+.container{
+    display: flex;
+}
+#modal{
+    background: rgba(0,0,0,0.7); 
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: none;
+    padding-left: 223px;
+ }
+ #modal-box{
+    background: #fff;
+    width: 35%;
+    height: 35%;
+    position: relative;
+    top: 5%;
+    left: calc(50%-15%);
+    padding: 15px;
+    border-radius: 4px;
+}
+#close-btn{
+    background-color: red;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 30%;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    cursor: pointer;
+}
+label{
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.form-control{
+    border: 2px solid black;
+    width: 223px;
+   
+}
+img{
+    height: 723px;
+}
+h1{
+    text-align: center;
+    background-color: rgba(0,255,255,0.3);
+    color: white;
+    height: 83px;
+    padding-top: 12px;
+    border-radius: 23px;
+}
+/* h2{
+    text-align: center;
+} */
+.signup-form{
+    width: 1023px;
+    height: 856px;
+    color: white;
+    border: 2px solid black;
+    background-color:rgba(0,0,0,0.4) ;
+    border-radius: 43px;
+  
+}
+#lk{
+    padding-left: 43px;
+    padding-top: 34px;
+}
+.form-select{
+    width: 223px;
+}
+.jk{
+padding-left: 123px;
+padding-top: 23px;
+padding-bottom: 23px;
+}
+.sk{
+    padding-left: 423px;
+    padding-top: 53px;
+padding-bottom: 33px;
+}
+.login-form{
+    background-color: rgba(0,255,255,0.3) ;
+    width: 423px;
+    padding-left: 43px;
+    padding-top: 23px;
+    height: 356px;
+    border-radius: 23px;
+    color: white;
+}

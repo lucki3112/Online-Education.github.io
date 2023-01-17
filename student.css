@@ -1,0 +1,130 @@
+.container{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.content{
+    padding-left: 73px;
+
+    margin: auto;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 23px;
+    padding-left: 23px;
+    height: 123px;
+    position: fixed;
+}
+.sidenav{
+    border: 2px solid black;
+    padding-bottom: 23px;
+    padding-left: 23px;
+    padding-right: 23px;
+    height: 723px;
+    width: 323px;
+    background-color: rgba(255,0,0,0.2);
+    color: white;
+    border-radius: 20%;
+}
+.upload{
+    width: 125px;
+    position: relative;
+    margin: auto;
+    padding-top: 23px;
+
+}
+.upload img{
+    border-radius: 50%;
+    border: 8px slid #DCDCDC;
+}
+.upload .round{
+    position: absolute;
+    background: #00B4FF;
+    bottom: 0;
+    right: 0;
+    width: 32px;
+    height: 32px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.upload .round input[type="file"]{
+    position: absolute;
+    transform: scale(3);
+    opacity: 0;
+}
+#logout{
+    margin: auto;
+    padding-left: 43px;
+    padding-top: 43px;
+}
+.change-name{
+    display: none;
+}
+.profile{
+    padding-bottom: 23px;
+}
+#name{
+    cursor: pointer;
+}
+.change-state{
+    display: none;
+}
+.state{
+    cursor: pointer;
+}
+.change-city{
+    display: none;
+}
+.city{
+    cursor: pointer;
+}
+.change-pin{
+    display: none;
+}
+.pin{
+    cursor: pointer;
+}
+.change-email{
+    display: none;
+}
+.email{
+    cursor: pointer;
+}
+.change-mobile{
+    display: none;
+}
+.mobile{
+    cursor: pointer;
+}
+.change-pwd{
+    display: none;
+}
+.pwd{
+    cursor: pointer;
+}
+.change-college{
+    display: none;
+}
+.college{
+    cursor: pointer;
+}
+.change-roll{
+    display: none;
+}
+.roll{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
